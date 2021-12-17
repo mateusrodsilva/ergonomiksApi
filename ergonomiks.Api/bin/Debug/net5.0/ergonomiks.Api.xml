@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ergonomiks.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ergonomiks.Api.Controllers.CompanyController.Register(ergonomiks.Domain.Commands.Company.CreateCompanyCommand,ergonomiks.Domain.Handler.Commands.Companies.CreateCompanyHandler)">
+            <summary>
+            Register a company
+            </summary>
+            <param name="command">Requisition body(Company data, email and password)</param>
+            <param name="handler">Validations and executions of create methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.CompanyController.GetAll(ergonomiks.Domain.Handler.Commands.Companies.CompanyListHandler)">
+            <summary>
+            Company List
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns></returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.CompanyController.GetByIdUser(ergonomiks.Domain.Handler.Queries.Company.CompanyByIdUserHandler)">
+            <summary>
+            Seaech company by idUser
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns></returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.CompanyController.Delete(ergonomiks.Domain.Commands.Company.DeleteCompanyCommand,ergonomiks.Domain.Handler.Commands.Companies.DeleteCompanyHandler)">
+            <summary>
+            Delete a company
+            </summary>
+            <param name="command">Requisition body (Company Id that will be deleted)</param>
+            <param name="handler">Executions of delete method</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.CompanyController.Update(ergonomiks.Domain.Commands.Company.UpdateCompanyCommand,ergonomiks.Domain.Handler.Commands.Companies.UpdateCompanyHandler)">
+            <summary>
+            Update a company data
+            </summary>
+            <param name="command">Requisition body</param>
+            <param name="handler">Execution of update methods</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.Register(ergonomiks.Domain.Commands.Employee.CreateEmployeeCommand,ergonomiks.Domain.Handler.Commands.Employee.CreateEmployeeHandler)">
+            <summary>
+            Register a employee
+            </summary>
+            <param name="command">Requisition body(employee data, email and password)</param>
+            <param name="handler">Validations and executions of create methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.GetAllByIdManager(ergonomiks.Domain.Handler.Commands.Employee.EmployeesListByIdManagerHandler)">
+            <summary>
+            List registered employees
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns>List of registered employees</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.GetEmployeeByIdManager(ergonomiks.Domain.Queries.Employee.EmployeesListQuery,ergonomiks.Domain.Handler.Queries.Employee.EmployeeByIdManagerHandler)">
+            <summary>
+            Verify if a manager has related employees
+            </summary>
+            <param name="handler">Execution of verification method</param>
+            <returns>List of registered employees</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.GetAllByIdCompany(ergonomiks.Domain.Handler.Queries.Employee.EmployeesListByIdCompanyHandler)">
+            <summary>
+            List registered employees
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns>List of registered employees</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.GetByIdUser(ergonomiks.Domain.Handler.Queries.Employee.EmployeeByIdUserHandler)">
+            <summary>
+            Get employee by idUser
+            </summary>
+            <param name="handler">Execute list method</param>
+            <returns>Employee object</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.GetByIdUser(ergonomiks.Domain.Queries.Employee.EmployeesListQuery,ergonomiks.Domain.Handler.Queries.Employee.EmployeeByIdUserHandler)">
+            <summary>
+            Get employee by idUser
+            </summary>
+            <param name="query">Requisition body</param>
+            <param name="handler">Execute list method</param>
+            <returns>Employee object</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.Delete(ergonomiks.Domain.Commands.Employee.DeleteEmployeeCommand,ergonomiks.Domain.Handler.Commands.Employee.DeleteEmployeeHandler)">
+            <summary>
+            Delete a employee
+            </summary>
+            <param name="command">Requisition body (employee Id that will be deleted)</param>
+            <param name="handler">Executions of delete method</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.Update(ergonomiks.Domain.Commands.Employee.UpdateEmployeeCommand,ergonomiks.Domain.Handler.Commands.Employee.UpdateEmployeeHandler)">
+            <summary>
+            Update a employee data
+            </summary>
+            <param name="command">Requisition body (Manager data)</param>
+            <param name="handler">Validations and executions of update methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EmployeeController.UpdateImageEmployee(ergonomiks.Domain.Commands.Employee.UpdateImageEmployeeCommand,ergonomiks.Domain.Handler.Commands.Employee.UpdateImageEmployeeHandler)">
+            <summary>
+            Update a employee image
+            </summary>
+            <param name="command">Requisition body (Manager data)</param>
+            <param name="handler">Validations and executions of update methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EquipmentController.Register(ergonomiks.Domain.Commands.Equipment.CreateEquipmentCommand,ergonomiks.Domain.Handler.Commands.Equipment.CreateEquipmentHandler)">
+            <summary>
+            Register a Equipment
+            </summary>
+            <param name="command">Requisition body</param>
+            <param name="handler">Execution of create methods</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.EquipmentController.GetAll(ergonomiks.Domain.Handler.Commands.Equipment.ListEquipmentHandler)">
+            <summary>
+            List all equipments
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns>List all equipments</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.Register(ergonomiks.Domain.Commands.Manager.CreateManagerCommand,ergonomiks.Domain.Handler.Commands.Manager.CreateManagerHandler)">
+            <summary>
+            Register a manager
+            </summary>
+            <param name="command">Requisition body(manager data, email and password)</param>
+            <param name="handler">Validations and executions of create methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.GetAllByIdCompany(ergonomiks.Domain.Handler.Commands.Manager.ManagersListByIdCompanyHandler)">
+            <summary>
+            List registered managers by idCompany
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns>List of registered managers</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.GetAllByIdUser(ergonomiks.Domain.Handler.Queries.Manager.ManagerByIdUserHandler)">
+            <summary>
+            Search a manager by idUser
+            </summary>
+            <param name="handler">Execution of search method</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.Delete(ergonomiks.Domain.Commands.Manager.DeleteManagerCommand,ergonomiks.Domain.Handler.Commands.Manager.DeleteManagerHandler)">
+            <summary>
+            Delete a manager
+            </summary>
+            <param name="command">Requisition body (Manager Id that will be deleted)</param>
+            <param name="handle">Executions of delete method</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.Update(ergonomiks.Domain.Commands.Manager.UpdateManagerCommand,ergonomiks.Domain.Handler.Commands.Manager.UpdateManagerHandler)">
+            <summary>
+            Update a manager data
+            </summary>
+            <param name="command">Requisition body (Manager data)</param>
+            <param name="handler">Validations and executions of update methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.ManagerController.UpdateImageManager(ergonomiks.Domain.Commands.Manager.UpdateImageManagerCommand,ergonomiks.Domain.Handler.Commands.Manager.UpdateImageManagerHandler)">
+            <summary>
+            Update a manager data
+            </summary>
+            <param name="command">Requisition body (Manager data)</param>
+            <param name="handler">Validations and executions of update methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.UserController.Register(ergonomiks.Domain.Commands.User.CreateAccountCommand,ergonomiks.Domain.Handler.Commands.User.CreateUserHandler)">
+            <summary>
+            Register a separate user
+            </summary>
+            <param name="command">Requisition body(email and password)</param>
+            <param name="handler">Validations and executions of create methods</param>
+            <returns>Status Code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.UserController.SignIn(ergonomiks.Domain.Commands.Authentication.SignInCommand,ergonomiks.Domain.Handler.Commands.Users.SignInHandler)">
+            <summary>
+            Log a user into the application
+            </summary>
+            <param name="command">Requisition body (email and password)</param>
+            <param name="handler">Validations and executions of Sign In method</param>
+            <returns>Status Code Ok and Authentication Token</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.UserController.GetAll(ergonomiks.Domain.Handler.Commands.Users.UsersListHandler)">
+            <summary>
+            List registered users
+            </summary>
+            <param name="handler">Execution of List method</param>
+            <returns>List of registered users</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.UserController.Delete(ergonomiks.Domain.Commands.User.DeleteUserCommand,ergonomiks.Domain.Handler.Commands.Users.DeleteUserHandler)">
+            <summary>
+            Delete a user
+            </summary>
+            <param name="command">Requisition body (User Id that will be deleted)</param>
+            <param name="handler">Executions of delete method</param>
+            <returns>Status code Ok</returns>
+        </member>
+        <member name="M:ergonomiks.Api.Controllers.UserController.UpdatePassword(ergonomiks.Domain.Commands.Authentication.UpdatePasswordCommand,ergonomiks.Domain.Handler.Commands.Users.UpdatePasswordHandler)">
+            <summary>
+            Update a user's password
+            </summary>
+            <param name="command">Requisition body</param>
+            <param name="handler">Execution of update methods</param>
+            <returns>Status code Ok</returns>
+        </member>
+    </members>
+</doc>

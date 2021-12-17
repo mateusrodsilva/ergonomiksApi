@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ergonomiks.Domain", "ergonomiks.Domain\ergonomiks.Domain.csproj", "{9636C59C-97A0-4831-BC88-420E61D8D1CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ergonomiks.Common", "ergonomiks.Common\ergonomiks.Common.csproj", "{44D2AF6E-BAD8-4C53-8220-3DBD9C40AEAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ergonomiks.Infra", "ergonomiks.Infra\ergonomiks.Infra.csproj", "{8D8A77DC-618C-4546-B9F5-19798581CCF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ergonomiks.Api", "ergonomiks.Api\ergonomiks.Api.csproj", "{8409B801-D55E-4808-932D-9ADA94A2B05E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9636C59C-97A0-4831-BC88-420E61D8D1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9636C59C-97A0-4831-BC88-420E61D8D1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9636C59C-97A0-4831-BC88-420E61D8D1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9636C59C-97A0-4831-BC88-420E61D8D1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D2AF6E-BAD8-4C53-8220-3DBD9C40AEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D2AF6E-BAD8-4C53-8220-3DBD9C40AEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D2AF6E-BAD8-4C53-8220-3DBD9C40AEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D2AF6E-BAD8-4C53-8220-3DBD9C40AEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8A77DC-618C-4546-B9F5-19798581CCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8A77DC-618C-4546-B9F5-19798581CCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8A77DC-618C-4546-B9F5-19798581CCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8A77DC-618C-4546-B9F5-19798581CCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8409B801-D55E-4808-932D-9ADA94A2B05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8409B801-D55E-4808-932D-9ADA94A2B05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8409B801-D55E-4808-932D-9ADA94A2B05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8409B801-D55E-4808-932D-9ADA94A2B05E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88747E26-135D-4A1B-9C80-4C1301270315}
+	EndGlobalSection
+EndGlobal
