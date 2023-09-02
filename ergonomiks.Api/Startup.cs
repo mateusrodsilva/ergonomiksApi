@@ -172,7 +172,6 @@ namespace ergonomiks.Api
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "ergonomiks.Api");
-                c.RoutePrefix = string.Empty;
             });
 
             app.UseRouting();
