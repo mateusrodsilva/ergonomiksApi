@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Infra\\ergonomiks.Infra.csproj": {}
+    "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Infra\\ergonomiks.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\ergonomiks.Common.csproj": {
+    "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\ergonomiks.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\ergonomiks.Common.csproj",
+        "projectUniqueName": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\ergonomiks.Common.csproj",
         "projectName": "ergonomiks.Common",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\ergonomiks.Common.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\obj\\",
+        "projectPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\ergonomiks.Common.csproj",
+        "packagesPath": "C:\\Users\\mrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,7 +103,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -116,25 +113,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\ergonomiks.Domain.csproj": {
+    "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\ergonomiks.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\ergonomiks.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\ergonomiks.Domain.csproj",
         "projectName": "ergonomiks.Domain",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\ergonomiks.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\obj\\",
+        "projectPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\ergonomiks.Domain.csproj",
+        "packagesPath": "C:\\Users\\mrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,8 +141,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\ergonomiks.Common.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Common\\ergonomiks.Common.csproj"
+              "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\ergonomiks.Common.csproj": {
+                "projectPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Common\\ergonomiks.Common.csproj"
               }
             }
           }
@@ -223,7 +216,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -232,25 +226,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Infra\\ergonomiks.Infra.csproj": {
+    "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Infra\\ergonomiks.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Infra\\ergonomiks.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Infra\\ergonomiks.Infra.csproj",
         "projectName": "ergonomiks.Infra",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Infra\\ergonomiks.Infra.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Infra\\obj\\",
+        "projectPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Infra\\ergonomiks.Infra.csproj",
+        "packagesPath": "C:\\Users\\mrodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Infra\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -264,8 +254,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\ergonomiks.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Ergonomiks\\back-end\\ergonomiks\\ergonomiks.Domain\\ergonomiks.Domain.csproj"
+              "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\ergonomiks.Domain.csproj": {
+                "projectPath": "C:\\Users\\mrodr\\OneDrive\\Documentos\\GitHub\\ergonomiksApi\\ergonomiks.Domain\\ergonomiks.Domain.csproj"
               }
             }
           }
@@ -343,7 +333,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -352,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
